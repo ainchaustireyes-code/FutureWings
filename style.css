@@ -83,6 +83,7 @@ body {
 .dashboard-logo img {
   height: 100px;
   cursor: pointer;
+  margin-top: 3rem;
 }
 
 .dashboard-menu {
