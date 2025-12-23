@@ -1,7 +1,9 @@
 :root {
   --gradient: linear-gradient(90deg, #0a6da4, #269bc6);
 }
-
+html {
+  font-size: 16px;
+}
 * {
   margin: 0;
   padding: 0;
