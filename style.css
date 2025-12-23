@@ -412,3 +412,9 @@ body.modules .module-desc::first-line{
     padding: 0 0.5rem;
   }
 }
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
