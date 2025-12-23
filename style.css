@@ -11,7 +11,7 @@
 
 body {
   color: #0F2A44;
-  background: url('IMAGES/Background.jpg');
+  background: url('IMAGES/background.jpg');
   background-size: cover;
   background-position: bottom;
   height: 100vh;
@@ -281,7 +281,7 @@ body.about .icon-link:hover{
 }
 
 body.modules{
-  background: url('IMAGES/sky\ Background.png') repeat-y center top;
+  background: url('IMAGES/sky\ background.png') repeat-y center top;
   background-size: cover;           
   background-attachment: scroll;     
 }
