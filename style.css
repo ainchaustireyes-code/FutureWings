@@ -281,7 +281,7 @@ body.about .icon-link:hover{
 }
 
 body.modules{
-  background: url('IMAGES/sky\ background.png') repeat-y center top;
+  background: url('IMAGES/sky\ Background.png') repeat-y center top;
   background-size: cover;           
   background-attachment: scroll;     
 }

@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
   const intro = document.querySelector('.intro');
   const logoSpans = document.querySelectorAll('.intro-logo');
 
