@@ -210,14 +210,14 @@ body.about .Aleinfo{
 }
 
 body.about .Aleinfo h1{
-  font-size: 5.2rem;
+  font-size: 1.8rem;
   margin-bottom: 1.5rem;
   letter-spacing: 1px;
 }
 
 body.about .Aleinfo p{
-  font-size: 2.5rem;
-  line-height: 3.2rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
   color: #4A5D73;
   max-width: 100%;   
 }
