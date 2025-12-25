@@ -483,16 +483,26 @@ body.modules .nav-toggle {
   }
 
   body.home .content {
-    top: 150px;
+    position: static;
+    transform: none;
+    margin-top: 100px;
+    padding: 0 1rem;
   }
 
-  body.home .text h1 {
+  body.home .text h1{
     font-size: 2rem;
   }
 
   body.home .text p {
     font-size: 1rem;
     padding: 0 1rem;
+  }
+
+  body.home .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   body.home .get-started {
