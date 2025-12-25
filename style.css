@@ -231,7 +231,7 @@ body.about .Alefoto{
 }
 
 body.about .Alefoto img{
-  width: 800px;          
+  width: 450px;          
   max-width: 100%;
   height: auto;
   border-radius: 24px;
@@ -471,5 +471,59 @@ body.modules .module-desc::first-line{
 
   .dashboard-menu .dropdown a {
     padding-left: 4.5rem;
+    color: white;
+  }
+
+  .dashboard-menu .dropdown a:hover {
+    background: rgba(38, 155, 198, 0.3);
+  }
+
+  body.home .content {
+    top: 120px;
+  }
+
+  body.home .text h1 {
+    font-size: 2rem;
+  }
+
+  body.home .text p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  body.home .get-started {
+    top: 320px;
+    font-size: 1.5rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  body.about {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 1.5rem 2rem;
+  }
+
+  body.about .Aleinfo {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  body.about .Aleinfo h1 {
+    font-size: 1.5rem;
+  }
+
+  body.about .Aleinfo p {
+    font-size: 0.95rem;
+    line-height: 1.8rem;
+  }
+
+  body.about .Alefoto {
+    order: 2;
+    margin-top: 2rem;
+  }
+
+  body.about .Alefoto img {
+    width: 100%;
+    max-width: 400px;
   }
 }
