@@ -216,6 +216,9 @@ body.about .Aleinfo{
   max-width: 1800px;
   margin: 0;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 body.about .Aleinfo h1{
@@ -277,6 +280,24 @@ body.about .icon-link img{
 body.about .icon-link:hover{
   transform: translateY(-3px);
   box-shadow: 0 14px 32px rgba(0,0,0,0.24);
+}
+
+body.about .watch-modules-btn {
+  display: inline-block;
+  align-self: center;
+  margin-top: 3rem;
+  padding: 1rem 2.5rem;
+  background: var(--gradient);
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 60px;
+  transition: transform 0.2s ease;
+}
+
+body.about .watch-modules-btn:hover {
+  transform: scale(1.05);
 }
 
 body.modules{
@@ -539,6 +560,7 @@ body.modules .nav-toggle {
   body.about .Aleinfo {
     padding: 1.5rem;
     max-width: 100%;
+    align-items: center;
   }
 
   body.about .Aleinfo h1 {
@@ -548,6 +570,11 @@ body.modules .nav-toggle {
   body.about .Aleinfo p {
     font-size: 0.95rem;
     line-height: 1.8rem;
+  }
+
+  body.about .watch-modules-btn {
+    font-size: 1.3rem;
+    padding: 0.9rem 2rem;
   }
 
   body.about .Alefoto {
