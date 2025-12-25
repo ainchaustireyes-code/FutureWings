@@ -418,6 +418,10 @@ body.modules .module-desc::first-line{
   cursor: pointer;
 }
 
+body.modules .nav-toggle {
+  color: black;
+}
+
 
 @media (max-width: 900px) {
   .nav-toggle {
@@ -492,9 +496,15 @@ body.modules .module-desc::first-line{
   }
 
   body.home .get-started {
-    top: 350px;
+    position: static;
+    margin-top: 2rem;
     font-size: 1.5rem;
     padding: 0.6rem 1.5rem;
+    transform: none;
+  }
+
+  body.home .get-started:hover {
+    transform: scale(1.05);
   }
 
   body.about {
@@ -525,5 +535,13 @@ body.modules .module-desc::first-line{
   body.about .Alefoto img {
     width: 100%;
     max-width: 400px;
+  }
+
+  body.modules .modules-header h1 {
+    font-size: 2rem;
+  }
+
+  body.modules .modules-page {
+    padding: 100px 1.5rem 3rem;
   }
 }
