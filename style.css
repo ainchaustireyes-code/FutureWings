@@ -507,12 +507,11 @@ body.modules .nav-toggle {
 
   body.home .get-started {
     position: static;
-    margin: 2rem auto 0;
+    margin: 2rem 0 0 0;
     font-size: 1.5rem;
     padding: 0.6rem 1.5rem;
     transform: none;
-    display: block;
-    width: fit-content;
+    display: inline-block;
   }
 
   body.home .get-started:hover {
