@@ -122,7 +122,7 @@ body.modules .dashboard-menu a[href="modules.html"] {
 
 .content {
   position: absolute;
-  top: 260px;
+  top: 140px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -146,37 +146,24 @@ body.modules .dashboard-menu a[href="modules.html"] {
   top: 80%;
   left: 50%;
   transform: translate(-50%, calc(-50% + 20px));
-
-  opacity: 0;
-  animation: buttonFadeIn 1s ease forwards;
-  animation-delay: 3.8s;
-}
-
-
-.get-started button {
+  
+  display: inline-block;
   padding: 0.7rem 1.8rem;
-  border: none;
   border-radius: 60px;
   font-size: 30px;
   background: var(--gradient);
   color: white;
+  text-decoration: none;
   cursor: pointer;
+  
+  opacity: 0;
+  animation: buttonFadeIn 1s ease forwards;
+  animation-delay: 3.8s;
   transition: transform 0.2s ease;
 }
 
-.get-started button:hover {
-  transform: scale(1.05);
-}
-
-.get-started a {
-  text-decoration: none;
-  color: white;
-}
-.get-started {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: buttonFadeIn 1s ease forwards;
-  animation-delay: 3.8s; 
+.get-started:hover {
+  transform: translate(-50%, -50%) scale(1.05);
 }
 
 
@@ -383,7 +370,7 @@ body.modules .video-wrap iframe{
   padding: 10px 16px;
   color: #0F2A44;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .dashboard-menu .dropdown a:hover{
@@ -420,15 +407,4 @@ body.modules .module-desc::first-line{
   inset: 0;
   z-index: 9999;
   pointer-events: none;
-}
-.get-started {
-  display: inline-block;
-  background: linear-gradient(90deg, #0a6da4, #269bc6);
-  color: white;
-  padding: 12px 26px;
-  border-radius: 999px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  margin-top: 40%;
 }
