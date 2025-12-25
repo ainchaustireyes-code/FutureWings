@@ -491,6 +491,9 @@ body.modules .nav-toggle {
     transform: none;
     margin-top: 100px;
     padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   body.home .text h1{
@@ -511,11 +514,11 @@ body.modules .nav-toggle {
 
   body.home .get-started {
     position: static;
-    margin: 2rem 0 0 0;
+    margin: 2rem auto 0;
     font-size: 1.5rem;
     padding: 0.6rem 1.5rem;
     transform: none;
-    display: inline-block;
+    display: block;
   }
 
   body.home .get-started:hover {
@@ -647,7 +650,11 @@ body.contact {
 
 @media (max-width: 900px) {
   body.contact {
-    padding: 100px 1.5rem 2rem;
+    padding: 100px 1rem 2rem;
+  }
+
+  .contact-page {
+    padding: 0 0.5rem;
   }
 
   .contact-container h1 {
@@ -655,10 +662,30 @@ body.contact {
   }
 
   .contact-container p {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
   }
 
   .contact-form {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.65rem 0.85rem;
+    font-size: 0.95rem;
+  }
+
+  .submit-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
   }
 }
