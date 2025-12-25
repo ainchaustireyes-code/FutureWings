@@ -286,7 +286,7 @@ body.modules .modules-header{
 }
 
 body.modules .modules-header h1{
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -385,7 +385,7 @@ body.modules .module-desc{
   max-width: 3000px;
   text-align: center;
 
-  font-size: 2.6rem;    
+  font-size: 1.3rem;    
   line-height: 3.6rem;
   color: #4A5D73;
 }
@@ -479,7 +479,7 @@ body.modules .module-desc::first-line{
   }
 
   body.home .content {
-    top: 120px;
+    top: 150px;
   }
 
   body.home .text h1 {
@@ -492,7 +492,7 @@ body.modules .module-desc::first-line{
   }
 
   body.home .get-started {
-    top: 320px;
+    top: 350px;
     font-size: 1.5rem;
     padding: 0.6rem 1.5rem;
   }
