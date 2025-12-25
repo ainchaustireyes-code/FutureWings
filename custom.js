@@ -35,4 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  let lastScroll = 0;
+  const dashboard = document.querySelector('.dashboard');
+
+  if (dashboard) {
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll > lastScroll && currentScroll > 80) {
+        dashboard.classList.add('hide');
+      } else {
+        dashboard.classList.remove('hide');
+      }
+
+      lastScroll = currentScroll;
+    });
+  }
+
 });
