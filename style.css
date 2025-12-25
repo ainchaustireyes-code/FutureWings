@@ -244,8 +244,8 @@ body.about .social-icons{
 }
 
 body.about .icon-link{
-  width: 96px;
-  height: 96px;
+  width: 46px;
+  height: 46px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -259,8 +259,8 @@ body.about .icon-link{
 }
 
 body.about .icon-link img{
-  width: 86px;
-  height: 86px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
   display: block;
 }
