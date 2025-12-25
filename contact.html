@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>FutureWings – Home</title>
+    <title>Contact – FutureWings</title>
     <meta
       name="description"
-      content="Curious about flying? Learn what flight training is really like and how to turn an interest in aviation into a real career."
+      content="Get in touch with FutureWings. Send us a message and we'll get back to you."
     />
 
     <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico" />
@@ -27,13 +27,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="home">
-    <div class="intro">
-      <h1 class="logo-header">
-        <span class="intro-logo">FutureWings</span>
-      </h1>
-    </div>
-
+  <body class="contact">
     <nav class="dashboard">
       <div class="dashboard-container">
         <a href="index.html" class="dashboard-logo">
@@ -42,7 +36,9 @@
             alt="FutureWings Logo"
           />
         </a>
+
         <button class="nav-toggle" aria-label="Open menu">☰</button>
+
         <ul class="dashboard-menu">
           <li><a href="index.html">Home</a></li>
 
@@ -69,22 +65,42 @@
       </div>
     </nav>
 
-    <main class="main">
-      <section class="content">
-        <div class="text">
-          <h1>
-            Welcome <br />
-            To FutureWings!
-          </h1>
+    <main class="contact-page">
+      <div class="contact-container">
+        <h1>Get In Touch</h1>
+        <p>
+          Have questions or feedback about FutureWings? Send us a message and
+          we'll get back to you as soon as possible.
+        </p>
 
-          <p>
-            Curious about flying? Turn your interest in aviation into a real
-            career.
-          </p>
-        </div>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mlgrqobn"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
 
-        <a href="modules.html" class="get-started">Start Here</a>
-      </section>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
     </main>
 
     <script src="custom.js"></script>
