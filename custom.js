@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (navToggle && dashboardMenu) {
     navToggle.addEventListener('click', () => {
-      dashboardMenu.classList.toggle('open');
+      dashboardMenu.classList.toggle('active');
     });
   }
   const dropdownParent = document.querySelector('.nav-dropdown');
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dropdownLink.addEventListener('click', (e) => {
       if (window.innerWidth <= 900) {
         e.preventDefault();
-        dropdownParent.classList.toggle('open');
+        dropdownParent.classList.toggle('active');
       }
     });
   }

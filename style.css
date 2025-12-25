@@ -425,4 +425,51 @@ body.modules .module-desc::first-line{
     align-items: center;
     justify-content: center;
   }
+
+  .dashboard-menu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(15, 42, 68, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 1rem 0;
+    display: none;
+  }
+
+  .dashboard-menu.active {
+    display: flex;
+  }
+
+  .dashboard-menu li {
+    width: 100%;
+  }
+
+  .dashboard-menu a {
+    display: block;
+    padding: 1rem 3rem;
+    width: 100%;
+  }
+
+  .dashboard-menu .dropdown {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+
+  .dashboard-menu .nav-dropdown.active .dropdown {
+    display: block;
+  }
+
+  .dashboard-menu .dropdown a {
+    padding-left: 4.5rem;
+  }
 }
